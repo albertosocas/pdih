@@ -1,0 +1,49 @@
+%!PS
+
+newpath
+
+100 300 moveto
+300 0 rlineto
+0 150 rlineto
+-300  0 rlineto
+0 -150 rlineto
+0.7 setgray
+fill
+
+
+stroke
+
+newpath 
+0.5 0 0.5 setrgbcolor
+0.8 setlinewidth
+
+% x  y   R  angI angF
+ 170 380  40   0   360   arc
+fill
+
+stroke
+
+/Times-Roman findfont	% Get the basic font
+15 scalefont		% Scale the font to 20 points
+setfont			% Make it the current font
+
+newpath			% Start a new path
+1 0 0 setrgbcolor
+230 400 moveto		
+(Alberto Socas Mendoza) show    
+stroke
+
+newpath			% Start a new path
+
+230 380 moveto		
+(4 Curso) show    
+stroke
+
+newpath			% Start a new path
+230 360 moveto		
+(PDIH) show    
+stroke
+
+
+
+showpage
